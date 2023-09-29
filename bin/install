@@ -136,6 +136,7 @@ construct_configure_options() {
     --enable-sysvshm \
     --enable-wddx \
     --enable-zip \
+    --enable-opcache \
     --sysconfdir=$install_path \
     --with-config-file-path=$install_path \
     --with-config-file-scan-dir=$install_path/conf.d \
@@ -148,6 +149,7 @@ construct_configure_options() {
     --with-mysql=mysqlnd \
     --with-mysqli=mysqlnd \
     --with-pdo-mysql=mysqlnd \
+    --with-pdo-pgsql \
     --with-xmlrpc \
     --with-zip \
     --with-zlib \
